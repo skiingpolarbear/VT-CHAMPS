@@ -1,0 +1,21 @@
+.bg-black{background-color: #000000;}
+.border-light {border-color: #8E8E8E !important} 
+.container {max-width: 750px !important;}
+.row {margin-left: 0 !important; margin-right: 0 !important;}
+
+
+body {background-image: url('https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/e3cfd56fa9e9ca23e19219c30a582ed3a25b06e496dd4bd790f488fa95d3175c.png'); background-repeat: no-repeat;  background-size: cover;}
+
+
+.teams-container { background-image: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .8));}
+
+.image-container {height: 80px; width: 80px; overflow: hidden; border-radius: 50%; border: 1px solid white;}
+
+.image-container img {max-width: 100%;}
+
+
+.team-name,
+.years {font-size: 1.1rem;font-weight: bold;}
+.team-name span {font-size: .8rem;font-weight: normal;}
+
+@media (max-width: 768px) {.team-name span{display:block;}}
